@@ -1,0 +1,8 @@
+build:
+  image: golang
+  commands:
+    - (cd outyet; go get)
+    - (cd outyet; go build)
+    - (cd outyet; go test)
+
+)
